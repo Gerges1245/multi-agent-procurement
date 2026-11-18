@@ -1,0 +1,142 @@
+{
+  "company_context": {
+    "company": {
+      "name": "Instant Software Solutions",
+      "industry": "Software development",
+      "country": "Egypt",
+      "currency": "EGP"
+    },
+    "purchase_request": {
+      "product": "laptop",
+      "quantity": 10,
+      "max_unit_price": 35000,
+      "minimum_ram_gb": 16,
+      "minimum_ssd_gb": 512,
+      "use_case": "Office work and software development",
+      "condition": "new",
+      "preferences": [
+        "Local warranty",
+        "Available for delivery in Egypt"
+      ]
+    }
+  },
+  "summary": {
+    "total": 2,
+    "eligible": 0,
+    "needs_confirmation": 0,
+    "ineligible": 2,
+    "excluded": 0,
+    "ranked": 0,
+    "best_eligible_url": null
+  },
+  "ranking_policy": {
+    "weights": {
+      "price": 60,
+      "ram": 20,
+      "ssd": 20
+    },
+    "price_rule": "60 × lowest rankable price / product price",
+    "spec_rule": "Each spec earns up to 20 points at twice its minimum; higher values earn no additional points.",
+    "eligibility_rule": "Confirmed eligible products rank before conditional ones. Products with failed requirements are not ranked.",
+    "cost_note": "Listed totals equal unit price × requested quantity. Unconfirmed shipping, taxes, and bulk discounts are excluded.",
+    "scope_note": "Scores compare price, RAM, and SSD only. They are not CPU benchmarks or purchase guarantees."
+  },
+  "products": [
+    {
+      "source_url": "https://2b.com.eg/en/lenovo-ideapad-slim-3-15irh10-laptop-intelr-coretm-i5-13420h-16gb-512gb-ssd-intelr-uhd-graphics-15-3-wuxga-60hz-blue.html",
+      "name": "Lenovo IdeaPad Slim 3 15IRH10 Laptop - Intel® Core™ i5-13420H - 16GB - 512GB SSD - Intel® UHD Graphics - 15.3\" WUXGA 60Hz - Blue",
+      "rank": null,
+      "value_score": null,
+      "status": "ineligible",
+      "checks": {
+        "currency": true,
+        "budget": false,
+        "ram": true,
+        "ssd": true,
+        "condition": null,
+        "quantity": false
+      },
+      "failed_checks": [
+        "budget",
+        "quantity"
+      ],
+      "unknown_checks": [
+        "condition"
+      ],
+      "unit_price": "44999.00",
+      "currency": "EGP",
+      "listed_total_for_requested_quantity": "449990.00",
+      "ram_gb": 16,
+      "ssd_gb": 512,
+      "processor": "13th Gen Intel® Core™ i5-13420H",
+      "condition": "No content available",
+      "quantity_available": 1,
+      "availability_text": "In Stock",
+      "warranty_text": "2 Years",
+      "retrieved_at": "2026-11-18T19:28:56.027467+00:00",
+      "evidence_quotes": {
+        "page_type": "Buy Lenovo IdeaPad Slim 3 15IRH10 Laptop",
+        "product_name": "Lenovo IdeaPad Slim 3 15IRH10 Laptop - Intel® Core™ i5-13420H - 16GB - 512GB SSD - Intel® UHD Graphics - 15.3\" WUXGA 60Hz - Blue",
+        "current_cash_price": "Special Price EGP 44,999",
+        "currency": "EGP 44,999",
+        "processor": "13th Gen Intel® Core™ i5-13420H",
+        "ram_gb": "RAM: 16GB",
+        "ssd_gb": "Hard Disk: 512GB SSD",
+        "availability_text": "Availability: In Stock",
+        "warranty_text": "warranty | 2 Years",
+        "quantity_available": "Only 1 left in stock"
+      },
+      "limitations": [
+        "Condition not explicitly stated (e.g., New/Refurbished), though likely new given the retail context."
+      ]
+    },
+    {
+      "source_url": "https://2b.com.eg/en/lenovo-loq-15irx9-laptop-intelr-coretm-i7-13650hx-16gb-512gb-ssd-nvidiar-geforce-rtxtm-3050-6gb-15-6-fhd-luna-grey.html",
+      "name": "Lenovo LOQ 15IRX9 Laptop - Intel® Core™ i7-13650HX - 16GB - 512GB SSD - NVIDIA® GeForce RTX 3050 6GB - 15.6\" FHD - Luna Grey",
+      "rank": null,
+      "value_score": null,
+      "status": "ineligible",
+      "checks": {
+        "currency": true,
+        "budget": false,
+        "ram": true,
+        "ssd": true,
+        "condition": null,
+        "quantity": null
+      },
+      "failed_checks": [
+        "budget"
+      ],
+      "unknown_checks": [
+        "condition",
+        "quantity"
+      ],
+      "unit_price": "66999.00",
+      "currency": "EGP",
+      "listed_total_for_requested_quantity": "669990.00",
+      "ram_gb": 16,
+      "ssd_gb": 512,
+      "processor": "Intel® Core™ i7-13650HX",
+      "condition": null,
+      "quantity_available": null,
+      "availability_text": "In Stock",
+      "warranty_text": "2 Years",
+      "retrieved_at": "2026-11-18T19:29:30.906110+00:00",
+      "evidence_quotes": {
+        "product_name": "Lenovo LOQ 15IRX9 Laptop - Intel® Core™ i7-13650HX - 16GB - 512GB SSD - NVIDIA® GeForce RTX 3050 6GB - 15.6\" FHD - Luna Grey",
+        "current_cash_price": "Special Price EGP 66,999",
+        "currency": "EGP",
+        "processor": "13th Intel® Core™ i7-13650HX, 14C (6P + 8E) / 20T, P-core 2.6 / 4.9GHz, E-core 1.9 / 3.6GHz, 24MB",
+        "ram_gb": "16GB",
+        "ssd_gb": "512GB SSD",
+        "availability_text": "Availability: In Stock",
+        "warranty_text": "Warranty: 2 Years"
+      },
+      "limitations": [
+        "Condition not explicitly stated",
+        "Quantity available not explicitly stated",
+        "Old price (EGP 93,849) excluded as per instructions"
+      ]
+    }
+  ]
+}

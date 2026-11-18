@@ -1,0 +1,21 @@
+{
+  "company": {
+    "name": "Instant Software Solutions",
+    "industry": "Software development",
+    "country": "Egypt",
+    "currency": "EGP"
+  },
+  "purchase_request": {
+    "product": "laptop",
+    "quantity": 10,
+    "max_unit_price": 35000,
+    "minimum_ram_gb": 16,
+    "minimum_ssd_gb": 512,
+    "use_case": "Office work and software development",
+    "condition": "new",
+    "preferences": [
+      "Local warranty",
+      "Available for delivery in Egypt"
+    ]
+  }
+}

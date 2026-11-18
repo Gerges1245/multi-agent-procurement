@@ -1,0 +1,6 @@
+crewai[google-genai]==1.15.41
+google-genai==1.65.0
+tavily-python==0.8.5
+python-dotenv==1.2.4
+pydantic==2.12.5
+requests==2.34.2
